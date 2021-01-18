@@ -25,7 +25,7 @@
 /// @param alpha 阴影的透明度
 /// @param x x偏移
 /// @param y y偏移
-/// @param blur 阴影模糊
+/// @param blur 阴影模糊  (还是阴影圆角 看api解释是圆角 多做下实验)
 /// @param spread 阴影拓展
 - (void)sky_setShadowColor:(UIColor *)color alpha:(CGFloat)alpha x:(CGFloat)x y:(CGFloat)y blur:(CGFloat)blur spread:(CGFloat)spread {
     self.shadowOffset = CGSizeMake(x, y);
